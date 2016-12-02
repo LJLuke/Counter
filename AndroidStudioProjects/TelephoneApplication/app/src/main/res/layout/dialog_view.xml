@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#F5F5F5"
+              android:layout_width="400dp"
+              android:layout_height="300dp">
+    <TextView
+        android:background="#303F9F"
+        android:text="编辑联系人"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/rename_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="请重新输入联系人姓名"
+        android:textColor="#999999"
+        android:textColorHint="#2F4F4F"
+        />
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/reset_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="请重新输入联系人电话"
+        android:textColor="#999999"
+        android:textColorHint="#2F4F4F"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginLeft="10dp"
+            android:background="#ffffff"
+            android:textColor="#339933"
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"/>
+        <Button
+            android:background="#ffffff"
+            android:textColor="#339933"
+            android:layout_marginLeft="130dp"
+            android:id="@+id/ensure_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定"/>
+    </LinearLayout>
+
+</LinearLayout>

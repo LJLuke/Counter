@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">联系人</string>
+    <string name="hello">Hello Word</string>
+    <string name="edit_contact">编辑联系人</string>
+    <string name="delete_contact">删除联系人</string>
+</resources>
